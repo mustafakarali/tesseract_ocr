@@ -1,0 +1,23 @@
+{
+	"name": "mustafakarali/tesseract_ocr",
+	"description": "A wrapper to work with Tesseract OCR inside PHP.",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": ["Tesseract", "OCR", "text recognition"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mustafa KARALI",
+		}
+	],
+	"support": {
+		"issues": "https://github.com/mustafakarali/tesseract_ocr/issues",
+		"irc": "irc://irc.freenode.net/tesseract_ocr",
+		"source": "https://github.com/mustafakarali/tesseract_ocr"
+	},
+	"autoload": {
+		"psr-4": {
+			"Karali\\TesseractOCR\\": "src/"
+		}
+	}
+}
